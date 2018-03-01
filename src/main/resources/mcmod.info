@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cursesilence",
+  "name": "Curse Silence",
+  "description": "Removes or modifies the curse description on tooltips",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Zabi94"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
