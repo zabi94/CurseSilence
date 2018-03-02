@@ -5,11 +5,6 @@ import net.minecraftforge.common.config.Config;
 @Config(modid = CurseSilence.MOD_ID)
 public class ModConfig {
 	
-	@Config.LangKey("curses.config.force_clients")
-	@Config.Comment("When this is true, clients will ignore their settings and use the server ones. Only works on servers")
-	@Config.RequiresMcRestart
-	public static boolean force_clients = true;
-	
 	@Config.LangKey("curses.config.remove_completely")
 	@Config.Comment("When this is true, the tooltip will completely disappear. When this is false, a general \"Cursed\" tooltip will appear")
 	public static boolean remove_completely = false;
