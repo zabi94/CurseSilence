@@ -1,5 +1,3 @@
-curses.config.force_clients=Force client config
-curses.config.remove_completely=Completely remove tooltip
-curses.config.show_books=Show curses on books
-curses.config.require_shift=Require shift
+curses.config.mode.name=Mode
+curses.config.show_books.name=Ignore Enchanted Books
 curse.general_tooltip=Cursed

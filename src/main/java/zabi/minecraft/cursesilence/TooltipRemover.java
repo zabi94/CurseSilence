@@ -12,6 +12,7 @@ import net.minecraftforge.event.entity.player.ItemTooltipEvent;
 import net.minecraftforge.fml.client.event.ConfigChangedEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import zabi.minecraft.cursesilence.ModConfig.Mode;
 
 @Mod.EventBusSubscriber
 public class TooltipRemover {
@@ -33,7 +34,7 @@ public class TooltipRemover {
 					})
 					.findAny().isPresent();
 			evt.getToolTip().removeAll(removal);
-			if (!ModConfig.remove_completely && found && (!ModConfig.require_shift || GuiScreen.isShiftKeyDown())) {
+			if (ModConfig.mode != Mode.Remove && found && (ModConfig.mode != Mode.Shift || GuiScreen.isShiftKeyDown())) {
 				evt.getToolTip().add("");
 				evt.getToolTip().add(TextFormatting.RED.toString()+TextFormatting.ITALIC+I18n.format("curse.general_tooltip"));
 			}
