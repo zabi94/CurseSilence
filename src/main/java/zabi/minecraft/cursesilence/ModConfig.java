@@ -6,7 +6,7 @@ import net.minecraftforge.common.config.Config;
 public class ModConfig {
 	
 	@Config.LangKey("curses.config.mode.name")
-	@Config.Comment({"Reduce will replace the curse with a generic \"Cursed\"","Remove will remove it completely", "Shift only shows \"Cursed\" when shifting"})
+	@Config.Comment("Reduce will replace the curse with a generic \"Cursed\", Remove will remove it completely, Shift only shows \"Cursed\" when shifting")
 	public static Mode mode = Mode.Reduce;
 	
 	@Config.LangKey("curses.config.show_books.name")
