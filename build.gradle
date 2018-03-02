@@ -33,7 +33,6 @@ processResources {
     inputs.property "mcversion", project.minecraft.version
     from(sourceSets.main.resources.srcDirs) {
         include 'mcmod.info'
-        include 'zabi.minecraft.cursesilence.CurseSilence'
         expand 'version':project.version, 'mcversion':project.minecraft.version
     }
         

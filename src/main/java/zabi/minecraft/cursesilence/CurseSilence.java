@@ -15,7 +15,7 @@ public class CurseSilence {
 	
 	public static final String MOD_ID = "cursesilence";
 	public static final String MOD_NAME = "Curse Silence";
-	public static final String MOD_VERSION = "${version}";
+	public static final String MOD_VERSION = "1.0";
 	
 	public static final ArrayList<Enchantment> curses = new ArrayList<Enchantment>();
 	
