@@ -15,7 +15,7 @@ public class CurseSilence {
 	
 	public static final String MOD_ID = "cursesilence";
 	public static final String MOD_NAME = "Curse Silence";
-	public static final String MOD_VERSION = "1.0";
+	public static final String MOD_VERSION = "1.1";
 	public static final String MC_VERSIONS = "[1.11,1.13)";
 	
 	
