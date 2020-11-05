@@ -1,0 +1,10 @@
+{
+	"cursesilence.cursed": "Maledetto %s",
+	"cursesilence.mod_name": "Curse Silence",
+	"cursesilence.config.general": "Generali",
+	"cursesilence.config.mode.name": "Modalità",
+	"cursesilence.config.mode.line1": "Definisce il modo in cui le maledizioni saranno nascoste:",
+	"cursesilence.config.mode.line2": "FULL: Nasconde completamente e toglie il bagliore all'oggetto",
+	"cursesilence.config.mode.line3": "HINT: Mostra un generico 'Maledetto' ma lascia il bagliore",
+	"cursesilence.config.mode.line4": "LEVEL: Mostra quante maledizioni ci sono, ma non il tipo"
+}

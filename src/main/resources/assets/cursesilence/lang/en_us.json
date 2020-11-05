@@ -1,0 +1,12 @@
+{
+	"enchantment.level.0": "",
+
+	"cursesilence.cursed": "Cursed %s",
+	"cursesilence.mod_name": "Curse Silence",
+	"cursesilence.config.general": "General",
+	"cursesilence.config.mode.name": "Mode",
+	"cursesilence.config.mode.line1": "Defines how curses will be hidden:",
+	"cursesilence.config.mode.line2": "FULL: Completely hides the curses and the glint",
+	"cursesilence.config.mode.line3": "HINT: Show a generic 'cursed' enchantment, and lets the item glow",
+	"cursesilence.config.mode.line4": "LEVEL: Shows the amount of curses an item has, but not which ones"
+}
